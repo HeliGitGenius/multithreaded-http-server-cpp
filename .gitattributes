@@ -1,0 +1,3 @@
+# Normalize line endings: keep everything LF in the repo so this
+# POSIX-socket code stays Unix-style for anyone cloning on Linux/macOS/WSL.
+* text=auto eol=lf
