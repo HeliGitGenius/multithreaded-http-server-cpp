@@ -1,7 +1,7 @@
 # Multithreaded HTTP Server & Load Balancer (C++17)
 
-**At a glance:** HTTP/1.1 server + round-robin load balancer in C++17 on raw POSIX sockets, thread pool, zero dependencies.
-**22,199 requests/sec at 11 ms p99** (keep-alive, 100 concurrent), **0 failed** across 50,000 requests.
+**At a glance:** HTTP/1.1 server + round-robin load balancer in C++17 on raw POSIX sockets, thread pool, zero dependencies.  
+**22,199 requests/sec at 11 ms p99** (keep-alive, 100 concurrent), **0 failed** across 50,000 requests.  
 Load balancer splits 30,000 requests exactly evenly (10,000 / 10,000 / 10,000) across 3 backends.
 
 A concurrent HTTP/1.1 static-file server with a built-in round-robin load
